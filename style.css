@@ -10,7 +10,7 @@
 }
 
 .logo img {
-    height: 60px; /* Tamanho do logo */
+    height: 100%; /* Tamanho do logo */
 }
 
 .menu ul {
@@ -193,7 +193,7 @@ body{
 
 /* Seção depoimentos */
 .depoimentos {
-    display:block;
+    display: flex;
     gap: 10px;
     height: 100vh;
     max-width: 100%;
@@ -286,3 +286,4 @@ body{
     padding: 5px;
     margin: 0px;
 }
+
