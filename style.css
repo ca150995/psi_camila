@@ -285,5 +285,70 @@ body{
     border-radius: 10px;
     padding: 5px;
     margin: 0px;
+}
 
+/* ========== MEDIA QUERIES (ADICIONADO) ========== */
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu li {
+        margin-left: 0;
+    }
+    
+    .imagem_de_fundo h1,
+    .imagem_de_fundo p {
+        width: 90%;
+    }
+    
+    .sobre-mim,
+    .abordagem,
+    .tratamento {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .sobre-mim img,
+    .abordagem img,
+    .tratamento img {
+        width: 100%;
+    }
+    
+    .sobre-texto h2,
+    .sobre-texto p {
+        margin-left: 0;
+    }
+    
+    .abordagem_dentro,
+    .tratamento_dentro {
+        margin-left: 0;
+    }
+    
+    .depoimento {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .depoimento_1,
+    .depoimento_2 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .texto_depoimento {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .mini_cabecalho {
+        flex-direction: column;
+        height: auto;
+    }
 }
