@@ -1,292 +1,354 @@
 /* estilo.css */
 .cabecalho {
-    display: flex; /* Usa Flexbox para alinhar itens */
-    justify-content: space-between; /* Espaça logo e menu */
-    align-items: center; /* Centraliza verticalmente */
-    background-color: #F3F3F3;
-    color: white;
-    padding: 10px 30px;
-    border-bottom: 3px solid #974B25;
-    height: 20px;
+display: flex;
+justify-content: space-between; 
+align-items: center;
+background-color: #F3F3F3;
+color: white;
+padding: 10px 30px;
+border-bottom: 3px solid #974B25;
 }
 
 .logo img {
-    height: 100%; /* Tamanho do logo */
+height: 60px;
 }
 
 .menu ul {
-    list-style: none;
-    display: flex;
-    padding: 0;
+list-style: none;
+display: flex;
+padding: 0;
 }
 
 .menu li {
-    margin-left: 20px;
-    padding: 5px;
+margin-left: 20px;
+padding: 5px;
 }
 
 .menu a {
-    font-family: 'Montserrat', sans-serif;
-    color:  #974B25;
-    text-decoration: none;
+font-family: 'Montserrat', sans-serif;
+color:  #974B25;
+text-decoration: none;
 }
 
 .imagem_de_fundo {
-    background-image: url('imagem_de_fundo.png'); /* ✅ Coloque o nome da sua imagem aqui */
-    background-size: cover; /* Cobre toda a área */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat;
-    height: 100vh; /* Ocupa toda a altura da tela */
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    position: relative;
-    color: white;
-    position: relative;
-    z-index: 1;
-    text-align: left;
-    padding: 20px;
+background-image: url('imagem_de_fundo.png');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: left;
+position: relative;
+color: white;
+position: relative;
+z-index: 1;
+text-align: left;
+padding: 20px;
 }
 
 body{
-    background: white;
-    color: #fff;
+background: white;
+color: #fff;
 }
 
 .texto_imagem{
-    padding-left: 10px;
+padding-left: 10px;
 }
 
 .imagem_de_fundo h1 {
-    margin-bottom: 20px;
-    width: 60%;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
+margin-bottom: 20px;
+width: 60%;
+color: white;
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-size: 2.5rem;
 
 }
 .imagem_de_fundo p {
-    width: 55%;
-    margin-bottom: 30px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-size: 1.5rem;
+width: 55%;
+margin-bottom: 30px;
+color: white;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 1.5rem;
 }
 
 /* Seção Sobre Mim */
 .sobre-mim {
-    display: flex;
-    gap: 10px;
-    height: 100vh;
-    max-width: 100%;
-    margin: 10px auto;
-    padding: 40px;
-    background-color: #e8e8e8;
-    border-radius: 20px;
+display: flex;
+gap: 10px;
+height: 100vh;
+max-width: 100%;
+margin: 10px auto;
+padding: 40px;
+background-color: #e8e8e8;
+border-radius: 20px;
 }
 .sobre-mim img {
-    width: 40%;
-    border-radius: 15px;
+width: 40%;
+border-radius: 15px;
 }
 .sobre-texto h2 {
-    font-size: 2rem;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    color:#974B25;
+font-size: 2rem;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 15px;
+margin-left: 30px;
+color:#974B25;
 }
 .sobre-texto p {
-    font-size: 1.1rem;
-    font-family: 'Lato', sans-serif;
-    margin-left: 30px;
-    line-height: 1.6;
-    color: #974B25;
-    text-align: justify;
+font-size: 1.1rem;
+font-family: 'Lato', sans-serif;
+margin-left: 30px;
+line-height: 1.6;
+color: #974B25;
+text-align: justify;
 }
 
 /* Seção abordagem */
 .abordagem {
-    display:flex;
-    gap: 10px;
-    height: 100vh;
-    max-width: 100%;
-    margin: 10px auto;
-    padding: 40px;
-    background-color: #e8e8e8;
-    border-radius: 20px;
+display:flex;
+gap: 10px;
+height: 100vh;
+max-width: 100%;
+margin: 10px auto;
+padding: 40px;
+background-color: #e8e8e8;
+border-radius: 20px;
 }
 .abordagem_dentro{
-    display: block;
-    justify-content: center;
-    margin-left: 30px;
+display: block;
+justify-content: center;
+margin-left: 30px;
 }
 .abordagem img {
-    width: 40%;
-    border-radius: 15px;
+width: 40%;
+border-radius: 15px;
 }
 .abordagem h2 {
-    font-size: 2rem;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    color:#974B25;
+font-size: 2rem;
+width: 100%;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 0px;
+margin-left: 0px;
+color:#974B25;
 }
 .abordagem p {
-    font-size: 1.1rem;
-    font-family: 'Lato', sans-serif;
-    margin-left: 0px;
-    line-height: 1.6;
-    color: #974B25;
-    text-align: justify;
+font-size: 1.1rem;
+font-family: 'Lato', sans-serif;
+margin-left: 0px;
+line-height: 1.6;
+color: #974B25;
+text-align: justify;
 
 }
 
 /* Seção tratamento */
 .tratamento {
-    display:flex;
-    gap: 10px;
-    height: 100vh;
-    max-width: 100%;
-    margin: 10px auto;
-    padding: 40px;
-    background-color: #e8e8e8;
-    border-radius: 20px;
+display:flex;
+gap: 10px;
+height: 100vh;
+max-width: 100%;
+margin: 10px auto;
+padding: 40px;
+background-color: #e8e8e8;
+border-radius: 20px;
 }
 .tratamento_dentro{
-    display: block;
-    justify-content: center;
-    margin-left: 30px;
+display: block;
+justify-content: center;
+margin-left: 30px;
 }
 .tratamento img {
-    width: 40%;
-    border-radius: 15px;
+width: 40%;
+border-radius: 15px;
 }
 .tratamento h2 {
-    font-size: 2rem;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    color:#974B25;
+font-size: 2rem;
+width: 100%;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 0px;
+margin-left: 0px;
+color:#974B25;
 }
 .tratamento h3 {
-    font-size: 1.1rem;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    color:#974B25;
-    padding-bottom: 0px;
+font-size: 1.1rem;
+width: 100%;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 0px;
+margin-left: 0px;
+color:#974B25;
+padding-bottom: 0px;
 }
 .tratamento p {
-    font-size: 0.8rem;
-    margin-top: 0px;
-    font-family: 'Lato', sans-serif;
-    margin-left: 0px;
-    line-height: 1.6;
-    color: #974B25;
-    text-align: justify;
+font-size: 0.8rem;
+margin-top: 0px;
+font-family: 'Lato', sans-serif;
+margin-left: 0px;
+line-height: 1.6;
+color: #974B25;
+text-align: justify;
 
 }
 
 /* Seção depoimentos */
 .depoimentos {
-    display: flex;
-    gap: 10px;
-    height: 100vh;
-    max-width: 100%;
-    margin: 10px auto;
-    padding: 0px;
-    background-color: #e8e8e8;
-    border-radius: 20px;
+display:block;
+gap: 10px;
+height: 100vh;
+max-width: 100%;
+margin: 10px auto;
+padding: 0px;
+background-color: #e8e8e8;
+border-radius: 20px;
 }
 .mini_cabecalho{
-    display: flex;
-    height: 40%;
-    padding: 30px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: #974B25;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+display: flex;
+height: 40%;
+padding: 30px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+background-color: #974B25;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
 }
 .mini_cabecalho h1{
-    font-size: 2rem;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    color: #e8e8e8;
+font-size: 2rem;
+width: 100%;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 0px;
+margin-left: 0px;
+color: #e8e8e8;
 }
 .mini_cabecalho p{
-    font-size: 1.3rem;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    color: #e8e8e8;
-    align-items: center;
+font-size: 1.3rem;
+width: 100%;
+font-family: 'Raleway', sans-serif;
+margin-bottom: 0px;
+margin-left: 0px;
+color: #e8e8e8;
+align-items: center;
 }
 .texto_depoimento{
-    width: 15%;
-    height: 20%;
-    margin-right: 80px;
+width: 15%;
+height: 20%;
+margin-right: 80px;
 }
 .depoimento_1{
-    background-color: #e8e8e8;
-    border-radius: 10px;
-    width: 25%;
-    height: 80%;
-    padding: 2vw;
-    margin-left: 2vw;
+background-color: #e8e8e8;
+border-radius: 10px;
+width: 25%;
+height: 80%;
+padding: 2vw;
+margin-left: 2vw;
 }
 .depoimento_1 h2{
-    font-size: 3vw;
-    color:black;
-    margin: 0px;
+font-size: 3vw;
+color:black;
+margin: 0px;
 }
 .depoimento_1 p{
-    margin: 0px;
-    font-size: 1.3vw;
-    color:black;
+margin: 0px;
+font-size: 1.3vw;
+color:black;
 }
 .depoimento{
-    display: flex;
-    margin-top: 20px;
-    height: 50%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding-bottom: 20px;
-    background-color: #e8e8e8;
+display: flex;
+margin-top: 20px;
+height: 50%;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+padding-bottom: 20px;
+background-color: #e8e8e8;
 }
 .depoimento_2{
-    background-color: white;
-    border-radius: 10px;
-    height: 80%;
-    padding: 1vw;
-    margin: 2vw;
+background-color: white;
+border-radius: 10px;
+height: 80%;
+padding: 1vw;
+margin: 2vw;
 }
 
 .depoimento_2 h2{
-    font-size: 3vw;
-    color:black;
-    margin: 0px;
+font-size: 3vw;
+color:black;
+margin: 0px;
 }
 .depoimento_2 p{
-    margin: 0px;
-    font-size: 1.3vw;
-    color:black;
+margin: 0px;
+font-size: 1.3vw;
+color:black;
 }
 #whats{
-    border: 1px solid #974B25;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 0px;
+border: 1px solid #974B25;
+border-radius: 10px;
+padding: 5px;
+margin: 0px;
+
 }
-
-
-
+/* ========== MEDIA QUERIES (ADICIONADO) ========== */
+@media screen and (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu li {
+        margin-left: 0;
+    }
+    
+    .imagem_de_fundo h1,
+    .imagem_de_fundo p {
+        width: 90%;
+    }
+    
+    .sobre-mim,
+    .abordagem,
+    .tratamento {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .sobre-mim img,
+    .abordagem img,
+    .tratamento img {
+        width: 100%;
+    }
+    
+    .sobre-texto h2,
+    .sobre-texto p {
+        margin-left: 0;
+    }
+    
+    .abordagem_dentro,
+    .tratamento_dentro {
+        margin-left: 0;
+    }
+    
+    .depoimento {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .depoimento_1,
+    .depoimento_2 {
+        width: 100%;
+        height: auto;
+    }
+    
+    .texto_depoimento {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .mini_cabecalho {
+        flex-direction: column;
+        height: auto;
+    }
+}
