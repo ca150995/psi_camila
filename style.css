@@ -287,68 +287,85 @@ padding: 5px;
 margin: 0px;
 
 }
-/* ========== MEDIA QUERIES (ADICIONADO) ========== */
-@media screen and (max-width: 768px) {
-    .cabecalho {
-        flex-direction: column;
-        padding: 15px;
-    }
-    
-    .menu ul {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .menu li {
-        margin-left: 0;
-    }
-    
-    .imagem_de_fundo h1,
-    .imagem_de_fundo p {
-        width: 90%;
-    }
-    
-    .sobre-mim,
-    .abordagem,
-    .tratamento {
-        flex-direction: column;
-        height: auto;
-    }
-    
-    .sobre-mim img,
-    .abordagem img,
-    .tratamento img {
-        width: 100%;
-    }
-    
-    .sobre-texto h2,
-    .sobre-texto p {
-        margin-left: 0;
-    }
-    
-    .abordagem_dentro,
-    .tratamento_dentro {
-        margin-left: 0;
-    }
-    
-    .depoimento {
-        flex-direction: column;
-        height: auto;
-    }
-    
-    .depoimento_1,
-    .depoimento_2 {
-        width: 100%;
-        height: auto;
-    }
-    
-    .texto_depoimento {
-        width: 100%;
-        margin-right: 0;
-    }
-    
-    .mini_cabecalho {
-        flex-direction: column;
-        height: auto;
-    }
+/* ========== VERSÃO MOBILE (max-width: 767px) ========== */
+@media screen and (max-width: 767px) {
+  .cabecalho {
+    padding: 10px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+.logo img {
+    height: 40px;
+  }
+.menu ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+.menu li {
+    margin: 5px 0;
+    padding: 8px;
+    border-bottom: 1px solid #974B25;
+  }
+.imagem_de_fundo {
+    height: 70vh;
+    padding: 15px;
+  }
+.imagem_de_fundo h1,
+  .imagem_de_fundo p {
+    width: 100%;
+    font-size: 2rem;
+  }
+.imagem_de_fundo p {
+    font-size: 1.2rem;
+  }
+.sobre-mim,
+  .abordagem,
+  .tratamento {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+.sobre-mim img,
+  .abordagem img,
+  .tratamento img {
+    width: 100%;
+    order: -1;
+  }
+.sobre-texto h2,
+  .sobre-texto p,
+  .abordagem h2,
+  .abordagem p,
+  .tratamento h2,
+  .tratamento p {
+    margin-left: 0;
+  }
+.depoimentos {
+    height: auto;
+  }
+.depoimento {
+    flex-direction: column;
+    padding: 15px;
+  }
+.depoimento_1,
+  .depoimento_2 {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 15px;
+  }
+.depoimento_1 h2,
+  .depoimento_2 h2 {
+    font-size: 1.5rem;
+  }
+.depoimento_1 p,
+  .depoimento_2 p {
+    font-size: 1rem;
+  }
+.texto_depoimento {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
 }
+
